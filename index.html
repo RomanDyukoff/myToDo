@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myToDo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=IBM+Plex+Serif:wght@400;500&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="todo_icon.png" type="image/x-icon">
+    <script async src="app.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">
+            <a href="#">Todo List</a>
+        </h1>
+    </header>
+
+    <main class="main">
+
+        <form class="main__form" action="#" autocomplete="off">
+            <div class="main__group">
+                <input class="main__input" type="text" name="todo" placeholder=" ">
+                <label class="main__lable">new todo</label>
+            </div>
+            <select class="main__select" name="users">
+                <option disabled selected>choice</option>
+            </select>
+            <button class="main__button">add</button>
+        </form>
+
+        <ul class="todo__list"></ul>
+
+    </main>
+</body>
+</html>
