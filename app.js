@@ -6,7 +6,7 @@ const form = document.querySelector('.main__form');
 let todos = [];
 let users = [];
 
-
+console.log('kek')
 //attach events
 document.addEventListener('DOMContentLoaded', initApp);
 form.addEventListener('submit', handleSubmit);
