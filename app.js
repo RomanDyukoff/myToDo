@@ -1,4 +1,4 @@
-(function() {
+;(function() {
     // globals
 const todoList = document.querySelector('.todo__list');
 const selectList = document.querySelector('.main__select');
